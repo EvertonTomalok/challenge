@@ -7,14 +7,14 @@ Simples demonstração de uso com Python, MongoDB, Celery/RabbitMQ e Docker.
 ## Sumário
 
 - [Setup](#setup)
-- [Enviando novo pedido](#enviando-novo-pedido-novo-pedido)
-- [Validação dos dados](#validacao-dos-dados)
+- [Enviando novo pedido](#enviando-novo-pedido)
+- [Validação dos dados](#validação-dos-dados)
 - [Verificando o status do processamento de um Loan](#verificando-o-status-do-processamento-de-um-loan)
 - [Ciclo de vida do projeto](#ciclo-de-vida-do-projeto)
 - [Testes](#testes)
-- [Mantendo as boas práticas de escrita](#mantendo-as-boas-praticas-de-escrita)
-- [Observações](#observacoes)
-- [Dependências do projeto](#dependencias-do-projeto)
+- [Mantendo as boas práticas de escrita](#mantendo-as-boas-práticas-de-escrita)
+- [Observações](#observações)
+- [Dependências do projeto](#dependências-do-projeto)
 
 ## Setup
 
