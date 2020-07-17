@@ -1,4 +1,4 @@
-# Challenge#
+# Challenge
 
 ## Introdução
 
@@ -6,15 +6,15 @@ Simples demonstração de uso com Python, MongoDB, Celery/RabbitMQ e Docker.
 
 ## Sumário
 
-- [Setup](#markdown-header-setup)
-- [Enviando novo pedido](#markdown-header-enviando-novo-pedido-novo-pedido)
-- [Validação dos dados](#markdown-header-validacao-dos-dados)
-- [Verificando o status do processamento de um Loan](#markdown-header-verificando-o-status-do-processamento-de-um-loan)
-- [Ciclo de vida do projeto](#markdown-header-ciclo-de-vida-do-projeto)
-- [Testes](#markdown-header-testes)
-- [Mantendo as boas práticas de escrita](#markdown-header-mantendo-as-boas-praticas-de-escrita)
-- [Observações](#markdown-header-observacoes)
-- [Dependências do projeto](#markdown-header-dependencias-do-projeto)
+- [Setup](#setup)
+- [Enviando novo pedido](#enviando-novo-pedido-novo-pedido)
+- [Validação dos dados](#validacao-dos-dados)
+- [Verificando o status do processamento de um Loan](#verificando-o-status-do-processamento-de-um-loan)
+- [Ciclo de vida do projeto](#ciclo-de-vida-do-projeto)
+- [Testes](#testes)
+- [Mantendo as boas práticas de escrita](#mantendo-as-boas-praticas-de-escrita)
+- [Observações](#observacoes)
+- [Dependências do projeto](#dependencias-do-projeto)
 
 ## Setup
 
