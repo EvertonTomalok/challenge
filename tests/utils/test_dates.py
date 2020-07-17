@@ -5,9 +5,9 @@ import pytest
 from api.utils.dates import get_age, is_older_then_18, parse_str_to_date
 
 
-@pytest.mark.parametrize("date", ["15/08/1992", "1992-08-15", "1992/08/15"])
-def test_parse_str_to_date(date, snapshot):
-    snapshot.assert_match(parse_str_to_date(date))
+@pytest.mark.parametrize("date_str", ["15/08/1992", "1992-08-15", "1992/08/15"])
+def test_parse_str_to_date(date_str, snapshot):
+    snapshot.assert_match(parse_str_to_date(date_str))
 
 
 def test_parse_str_to_date_date_obj(snapshot):
