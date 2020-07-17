@@ -1,0 +1,31 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "==5.4.3"
+pytest-cov= "==2.10.0"
+snapshottest = "==0.5.1"
+autoflake = "==1.3.1"
+mypy = "==0.782"
+responses = "==0.10.15"
+isort = "==5.0.9"
+black = "==19.10b0"
+flake8 = "==3.8.3"
+
+[packages]
+amqp = "==2.6.0"
+celery = "==4.4.6"
+flask = "==1.1.2"
+gunicorn = "==20.0.4"
+pymongo = "==3.10.1"
+schematics = "==2.1.0"
+pandas = "==1.0.5"
+mongomock = "==3.19.0"
+python-dateutil = "==2.8.1"
+requests = "==2.24.0"
+backoff = "==1.10.0"
+
+[requires]
+python_version = "3"
