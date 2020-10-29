@@ -285,11 +285,10 @@ Os dois principais são:
 ## Observações
 
 - O MongoDB foi escolhido como banco, pela proximidade do DynamoDB, o qual foi solicitado como bônus no projeto.
-- Este projeto foi desenvolvido com foco em ambiente servless, com o uso de algum orquestrador (Kubernetes) ou gerenciadores de API (API Gateway).
-- Como é apenas para provar conceitos técnicos, não separei este projeto. Porém, se esta aplicação fosse real, este projeto deveria ser melhor dividido:
-    - Um projeto para a api;
-    - Outro projeto para o Backend;
-    - O Banco de Dados dados deveria ter uma instância única e exclusiva para ele.
+- Como é apenas para mostrar conceitos técnicos, não separei este projeto. Porém, se esta aplicação fosse real, este projeto deveria ser melhor dividido:
+    - Um projeto para a api, fornecendo uma camada de segurança;
+    - Outro projeto para o Backend/Tarefas em background;
+    - O Banco de Dados dados deveria ter uma instância única e exclusiva para ele, ou terceirizar o serviço.
 
 
 ## Dependências do projeto
@@ -307,7 +306,6 @@ Os dois principais são:
 - requests
 - backoff
 - flower
-- boto3 (Maybe if using AWS lambda)
 
 
 ### Desenvolvimento
